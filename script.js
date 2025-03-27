@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const count=document.getElementById("count")
-const btn=document.getElementById("btn")
+const count=document.getElementById("counter")
+const btn=document.getElementById("incrementBtn")
 
 function increment(){
 	let cnt=Number(count.textContent)
