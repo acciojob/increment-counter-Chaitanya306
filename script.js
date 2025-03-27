@@ -3,7 +3,8 @@ const count=document.getElementById("count")
 const btn=document.getElementById("btn")
 
 function increment(){
-	const cnt=Number(count.textContent)
+	let cnt=Number(count.textContent)
+	alert(cnt)
 	cnt++
 	count.textContent=cnt
 }
